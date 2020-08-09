@@ -1,15 +1,3 @@
-provider "aws" {
-  region = "us-west-2"
-}
-
-variable "instance_type" {
-  type = map(string)
-  default = {
-    default = "t2.nano"
-    dev     = "t2.micro"
-    prod    = "t2.large"
-  }
-}
 
 data "aws_ami" "ubuntu" {
   most_recent = true
