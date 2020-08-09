@@ -1,0 +1,24 @@
+vendor
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+*.env
+.idea
+.DS_Store
+
+#  Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files in root directory
+/*.tfvars
+/*.tfvars.json
+
+# Files for Manual testing
+*.tfPlan
+
